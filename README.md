@@ -47,7 +47,7 @@ The experiment uses two viewpoints to record the video, the participant uses the
 4. merge.py: merge the coordinate data files of each person
 5. relative_location.py: Calculate the relative coordinates of the person in the experiment
 <a name="B9OiO"></a>
-#### 2. Data processing
+#### 2. Data analysis
 
 1. calculate_velocaty.py: Calculate the instantaneous velocity of each person in the experiment
 2. draw_track: plot the experiment trajectory
