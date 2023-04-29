@@ -5,9 +5,11 @@ A PaddleOCR-based numerical recognition project for extracting trajectory data f
 #### 1. **Experimental videos**
 <a name="RiUze"></a>
 ##### 1.1 **Researcher's view**
-[![2-2.mp4 (9.67MB)](https://github.com/magicalsky/Extraction-Trajectory/blob/main/Data/2-2.mp4]()<a name="LLhKq"></a>
+![2-2.gif](https://cdn.nlark.com/yuque/0/2023/gif/22618877/1682761072125-2bf26ff3-15d2-4182-b75c-8c9ca70d54ae.gif#clientId=u7d54e50b-0b2c-4&from=paste&height=347&id=udf57b374&originHeight=360&originWidth=640&originalType=binary&ratio=2&rotation=0&showTitle=false&size=22023270&status=done&style=none&taskId=u0341e8bd-f721-4999-a4c4-ea34d683ff6&title=&width=616)
+<a name="LLhKq"></a>
 ##### 1.2 **Participant view**
-[![02-2-2.mp4 (12.78MB)](https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*NNs6TKOR3isAAAAAAAAAAABkARQnAQ)]()<a name="J19kV"></a>
+![02-2-2.gif](https://cdn.nlark.com/yuque/0/2023/gif/22618877/1682761193350-1693ff64-c2e3-42d7-9224-727a2d1ccccf.gif#averageHue=%23237299&clientId=u7d54e50b-0b2c-4&from=paste&height=344&id=u1d21592f&originHeight=360&originWidth=640&originalType=binary&ratio=2&rotation=0&showTitle=false&size=7903787&status=done&style=none&taskId=u3ccc851c-8500-408d-9a89-5046b8079a6&title=&width=611)
+<a name="J19kV"></a>
 #### 2. **Data extraction**：
 **he processing process of extracting coordinate data from experimental video is shown as follows:**<br />![处理流程.png](https://cdn.nlark.com/yuque/0/2023/png/22618877/1682759061455-af5a1fc9-96c9-4e7a-9985-a6350ba49454.png#averageHue=%237e7972&clientId=u7d54e50b-0b2c-4&from=paste&height=1353&id=u6613ab2e&originHeight=2706&originWidth=11442&originalType=binary&ratio=2&rotation=0&showTitle=false&size=6399241&status=done&style=none&taskId=uc0dc7ecf-ca7b-45dd-9247-90cba0fcd5f&title=&width=5721)
 <a name="Wnvtp"></a>
@@ -35,7 +37,7 @@ Clone this project. This is the logical code for MCTrack to extract data and cal
 #### 1. Extracting coordinate data
 <a name="umoRI"></a>
 #### 1.1 Introduction to the experimental video
-The experiment uses two viewpoints to record the video, the participant uses the first-person viewpoint and the researcher uses the top-down viewpoint.<br />The participant's viewpoint (left) obtains the real-time coordinates of the character by calling the debugging interface, so the study can achieve accurate trajectory tracking by extracting the coordinate data<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/22618877/1681627759520-d826b906-38f8-464d-aa2e-722c863a3cc9.png#averageHue=%231c6a77&clientId=u07c89d2b-a828-4&from=paste&height=321&id=uedd0a988&originHeight=321&originWidth=906&originalType=binary&ratio=1&rotation=0&showTitle=false&size=571284&status=done&style=none&taskId=u4fcf20dd-c2d8-4dfd-a63b-be52e368641&title=&width=906)
+The experiment uses two viewpoints to record the video, the participant uses the first-person viewpoint and the researcher uses the top-down viewpoint.<br />The participant's viewpoint (left) obtains the real-time coordinates of the character by calling the debugging interface, so the study can achieve accurate trajectory tracking by extracting the coordinate data<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/22618877/1682761282219-ffa2cb8e-7418-4674-b13e-3ad9f7d86279.png#averageHue=%231d6b79&clientId=u7d54e50b-0b2c-4&from=paste&height=285&id=ub5271d21&originHeight=470&originWidth=1332&originalType=binary&ratio=2&rotation=0&showTitle=false&size=872149&status=done&style=none&taskId=u77169f7e-a2c8-4639-96d6-a87cbbb926c&title=&width=807)
 <a name="QWcts"></a>
 #### 1.2 Coordinate extraction - implemented using the get_location module:
 
