@@ -1,5 +1,15 @@
-Experimental research project on pedestrian evacuation using Minecraft.<br />We used the NetEase-represented Minecraft version and purchased a server to build the experiment platform, which could support up to 40 simultaneous participants. ([https://mc.163.com](https://mc.163.com)), Minecraft version 1.12.2 (Java version)<br />If you want to test, you can search for the rental service game by server number within the launcher: xxx, room password: 123456
-
+A PaddleOCR-based numerical recognition project for extracting trajectory data from evacuation experiments using Minecraft.<br />We used the NetEase-represented Minecraft version and purchased a server to build the experiment platform, which could support up to 40 simultaneous participants. ([https://mc.163.com](https://mc.163.com)), Minecraft version 1.12.2 (Java version)
+<a name="hLKaw"></a>
+### **Experimental videos and data processing process**
+<a name="Yitjy"></a>
+#### 1. **Experimental videos**
+<a name="RiUze"></a>
+##### 1.1 **Researcher's view**
+[![2-2.mp4 (9.67MB)](https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*NNs6TKOR3isAAAAAAAAAAABkARQnAQ)]()<a name="LLhKq"></a>
+##### 1.2 **Participant view**
+[![02-2-2.mp4 (12.78MB)](https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*NNs6TKOR3isAAAAAAAAAAABkARQnAQ)]()<a name="J19kV"></a>
+#### 2. **Data extraction**：
+**he processing process of extracting coordinate data from experimental video is shown as follows:**<br />![处理流程.png](https://cdn.nlark.com/yuque/0/2023/png/22618877/1682759061455-af5a1fc9-96c9-4e7a-9985-a6350ba49454.png#averageHue=%237e7972&clientId=u7d54e50b-0b2c-4&from=paste&height=1353&id=u6613ab2e&originHeight=2706&originWidth=11442&originalType=binary&ratio=2&rotation=0&showTitle=false&size=6399241&status=done&style=none&taskId=uc0dc7ecf-ca7b-45dd-9247-90cba0fcd5f&title=&width=5721)
 <a name="Wnvtp"></a>
 ### Getting Start
 Clone this project. This is the logical code for MCTrack to extract data and calculate relative coordinates, containing the functions:
@@ -34,8 +44,6 @@ The experiment uses two viewpoints to record the video, the participant uses the
 3. recognize_location.py: OCR recognition of coordinate values
 4. merge.py: merge the coordinate data files of each person
 5. relative_location.py: Calculate the relative coordinates of the person in the experiment
-
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/22618877/1681629880208-449eeb92-a20f-4b04-a00b-22bc120b1891.png#averageHue=%233e3125&clientId=u07c89d2b-a828-4&from=paste&height=892&id=u03f12de6&originHeight=892&originWidth=800&originalType=binary&ratio=1&rotation=0&showTitle=false&size=330141&status=done&style=none&taskId=uf48a17de-277c-4b93-a679-9f71ef1be51&title=&width=800)
 <a name="B9OiO"></a>
 #### 2. Data processing
 
@@ -45,7 +53,7 @@ The experiment uses two viewpoints to record the video, the participant uses the
 <a name="Ufx7M"></a>
 ### Experimental process
 <a name="IP2IE"></a>
-#### 1. Interface settings
+#### 1.Interface settings
 Please maximize the game interface<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/22618877/1669187627058-e39e0010-a3d8-4536-9a45-3bc1c1b1211f.png#averageHue=%233a4641&clientId=ufd09b4ab-7a15-4&from=paste&height=557&id=J9JCI&originHeight=1080&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=382954&status=done&style=stroke&taskId=u62ee0892-b942-4213-bbc5-83a3219674b&title=&width=990)
 <a name="w2Ycg"></a>
 #### 2. Debugging information acquisition
