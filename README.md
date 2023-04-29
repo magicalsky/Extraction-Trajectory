@@ -1,17 +1,16 @@
 A PaddleOCR-based numerical recognition project for extracting trajectory data from evacuation experiments using Minecraft.<br />We used the NetEase-represented Minecraft version and purchased a server to build the experiment platform, which could support up to 40 simultaneous participants. ([https://mc.163.com](https://mc.163.com)), Minecraft version 1.12.2 (Java version)
-<a name="hLKaw"></a>
-### **Experimental videos and data processing process**
-<a name="Yitjy"></a>
-#### 1. **Experimental videos**
-<a name="RiUze"></a>
-##### 1.1 **Researcher's view**
-[2-2.mp4](https://www.yuque.com/attachments/yuque/0/2023/mp4/22618877/1682763678905-76ef7508-80b6-444f-b7f5-f745bea2efd0.mp4?_lake_card=%7B%22src%22%3A%22https%3A%2F%2Fwww.yuque.com%2Fattachments%2Fyuque%2F0%2F2023%2Fmp4%2F22618877%2F1682763678905-76ef7508-80b6-444f-b7f5-f745bea2efd0.mp4%22%2C%22name%22%3A%222-2.mp4%22%2C%22size%22%3A10139648%2C%22ext%22%3A%22mp4%22%2C%22source%22%3A%22%22%2C%22status%22%3A%22done%22%2C%22download%22%3Atrue%2C%22taskId%22%3A%22u71093e0c-c73a-48de-acc0-e2abba8deda%22%2C%22taskType%22%3A%22upload%22%2C%22type%22%3A%22video%2Fmp4%22%2C%22__spacing%22%3A%22both%22%2C%22mode%22%3A%22title%22%2C%22id%22%3A%22oQBHY%22%2C%22margin%22%3A%7B%22top%22%3Atrue%2C%22bottom%22%3Atrue%7D%2C%22card%22%3A%22file%22%7D)
-[![2-2.mp4](https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*NNs6TKOR3isAAAAAAAAAAABkARQnAQ)]()<a name="LLhKq"></a>
-##### 1.2 **Participant view**
-[02-2-2.mp4](https://www.yuque.com/attachments/yuque/0/2023/mp4/22618877/1682763696957-e963960a-1e54-49a0-917b-34e9b612c8f9.mp4?_lake_card=%7B%22src%22%3A%22https%3A%2F%2Fwww.yuque.com%2Fattachments%2Fyuque%2F0%2F2023%2Fmp4%2F22618877%2F1682763696957-e963960a-1e54-49a0-917b-34e9b612c8f9.mp4%22%2C%22name%22%3A%2202-2-2.mp4%22%2C%22size%22%3A13401728%2C%22ext%22%3A%22mp4%22%2C%22source%22%3A%22%22%2C%22status%22%3A%22done%22%2C%22download%22%3Atrue%2C%22taskId%22%3A%22u22656892-044d-404b-a190-ea0ebb586a3%22%2C%22taskType%22%3A%22upload%22%2C%22type%22%3A%22video%2Fmp4%22%2C%22__spacing%22%3A%22both%22%2C%22id%22%3A%22u3bc19426%22%2C%22margin%22%3A%7B%22top%22%3Atrue%2C%22bottom%22%3Atrue%7D%2C%22card%22%3A%22file%22%7D)
-[![02-2-2.mp4](https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*NNs6TKOR3isAAAAAAAAAAABkARQnAQ)]()<a name="J19kV"></a>
-#### 2. **Data extraction**：
-**he processing process of extracting coordinate data from experimental video is shown as follows:**<br />![处理流程2.png](https://cdn.nlark.com/yuque/0/2023/png/22618877/1682761807503-fbbed9e7-2f52-472e-8f41-5c9929bcebd2.png#averageHue=%237e7a73&clientId=u7d54e50b-0b2c-4&from=paste&height=902&id=ue904a193&originHeight=1804&originWidth=7628&originalType=binary&ratio=2&rotation=0&showTitle=false&size=3147110&status=done&style=none&taskId=u165f3cf0-2b8c-46e7-a8fe-f39a9a95d02&title=&width=3814)
+<a name="RxDu9"></a>
+### Prerequisites
+
+1. Install PaddlePaddle and build a deep learning environment([https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/windows-pip.html](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/windows-pip.html))
+> python -m pip install paddlepaddle-gpu==2.4.2 -i [https://pypi.tuna.tsinghua.edu.cn/simple](https://pypi.tuna.tsinghua.edu.cn/simple)
+
+2. Install PaddleOCR and build OCR service
+> pip install paddleocr
+
+<a name="J19kV"></a>
+### Data extraction process：
+**The processing process of extracting coordinate data from experimental video is shown as follows:**<br />![处理流程2.png](https://cdn.nlark.com/yuque/0/2023/png/22618877/1682761807503-fbbed9e7-2f52-472e-8f41-5c9929bcebd2.png#averageHue=%237e7a73&clientId=u7d54e50b-0b2c-4&from=paste&height=902&id=ue904a193&originHeight=1804&originWidth=7628&originalType=binary&ratio=2&rotation=0&showTitle=false&size=3147110&status=done&style=none&taskId=u165f3cf0-2b8c-46e7-a8fe-f39a9a95d02&title=&width=3814)
 <a name="Wnvtp"></a>
 ### Getting Start
 Clone this project. This is the logical code for MCTrack to extract data and calculate relative coordinates, containing the functions:
@@ -21,15 +20,6 @@ Clone this project. This is the logical code for MCTrack to extract data and cal
 > 4. Calculate pedestrian velocity
 > 5. Plot trajectory
 > 6. Calculate the number of people remaining in the room
-
-<a name="r54c7"></a>
-### Prerequisites
-
-1. Install PaddlePaddle and build a deep learning environment([https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/windows-pip.html](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/windows-pip.html))
-> python -m pip install paddlepaddle-gpu==2.4.2 -i [https://pypi.tuna.tsinghua.edu.cn/simple](https://pypi.tuna.tsinghua.edu.cn/simple)
-
-2. Install PaddleOCR and build OCR service
-> pip install paddleocr
 
 <a name="ScNgj"></a>
 ### Instructions
