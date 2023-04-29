@@ -5,7 +5,7 @@ A PaddleOCR-based numerical recognition project for extracting trajectory data f
 #### 1. **Experimental videos**
 <a name="RiUze"></a>
 ##### 1.1 **Researcher's view**
-[![2-2.mp4 (9.67MB)](https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*NNs6TKOR3isAAAAAAAAAAABkARQnAQ)]()<a name="LLhKq"></a>
+[![2-2.mp4 (9.67MB)](https://github.com/magicalsky/Extraction-Trajectory/blob/main/Data/2-2.mp4]()<a name="LLhKq"></a>
 ##### 1.2 **Participant view**
 [![02-2-2.mp4 (12.78MB)](https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*NNs6TKOR3isAAAAAAAAAAABkARQnAQ)]()<a name="J19kV"></a>
 #### 2. **Data extraction**：
