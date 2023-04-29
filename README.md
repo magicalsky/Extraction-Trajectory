@@ -5,11 +5,11 @@ A PaddleOCR-based numerical recognition project for extracting trajectory data f
 #### 1. **Experimental videos**
 <a name="RiUze"></a>
 ##### 1.1 **Researcher's view**
-![2-2.gif](https://cdn.nlark.com/yuque/0/2023/gif/22618877/1682761072125-2bf26ff3-15d2-4182-b75c-8c9ca70d54ae.gif#clientId=u7d54e50b-0b2c-4&from=paste&height=236&id=udf57b374&originHeight=360&originWidth=640&originalType=binary&ratio=2&rotation=0&showTitle=false&size=22023270&status=done&style=none&taskId=u0341e8bd-f721-4999-a4c4-ea34d683ff6&title=&width=419)
-<a name="LLhKq"></a>
+[2-2.mp4](https://www.yuque.com/attachments/yuque/0/2023/mp4/22618877/1682763678905-76ef7508-80b6-444f-b7f5-f745bea2efd0.mp4?_lake_card=%7B%22src%22%3A%22https%3A%2F%2Fwww.yuque.com%2Fattachments%2Fyuque%2F0%2F2023%2Fmp4%2F22618877%2F1682763678905-76ef7508-80b6-444f-b7f5-f745bea2efd0.mp4%22%2C%22name%22%3A%222-2.mp4%22%2C%22size%22%3A10139648%2C%22ext%22%3A%22mp4%22%2C%22source%22%3A%22%22%2C%22status%22%3A%22done%22%2C%22download%22%3Atrue%2C%22taskId%22%3A%22u71093e0c-c73a-48de-acc0-e2abba8deda%22%2C%22taskType%22%3A%22upload%22%2C%22type%22%3A%22video%2Fmp4%22%2C%22__spacing%22%3A%22both%22%2C%22mode%22%3A%22title%22%2C%22id%22%3A%22oQBHY%22%2C%22margin%22%3A%7B%22top%22%3Atrue%2C%22bottom%22%3Atrue%7D%2C%22card%22%3A%22file%22%7D)
+[![2-2.mp4](https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*NNs6TKOR3isAAAAAAAAAAABkARQnAQ)]()<a name="LLhKq"></a>
 ##### 1.2 **Participant view**
-![02-2-2.gif](https://cdn.nlark.com/yuque/0/2023/gif/22618877/1682761193350-1693ff64-c2e3-42d7-9224-727a2d1ccccf.gif#averageHue=%23237299&clientId=u7d54e50b-0b2c-4&from=paste&height=235&id=u1d21592f&originHeight=360&originWidth=640&originalType=binary&ratio=2&rotation=0&showTitle=false&size=7903787&status=done&style=none&taskId=u3ccc851c-8500-408d-9a89-5046b8079a6&title=&width=418)
-<a name="J19kV"></a>
+[02-2-2.mp4](https://www.yuque.com/attachments/yuque/0/2023/mp4/22618877/1682763696957-e963960a-1e54-49a0-917b-34e9b612c8f9.mp4?_lake_card=%7B%22src%22%3A%22https%3A%2F%2Fwww.yuque.com%2Fattachments%2Fyuque%2F0%2F2023%2Fmp4%2F22618877%2F1682763696957-e963960a-1e54-49a0-917b-34e9b612c8f9.mp4%22%2C%22name%22%3A%2202-2-2.mp4%22%2C%22size%22%3A13401728%2C%22ext%22%3A%22mp4%22%2C%22source%22%3A%22%22%2C%22status%22%3A%22done%22%2C%22download%22%3Atrue%2C%22taskId%22%3A%22u22656892-044d-404b-a190-ea0ebb586a3%22%2C%22taskType%22%3A%22upload%22%2C%22type%22%3A%22video%2Fmp4%22%2C%22__spacing%22%3A%22both%22%2C%22id%22%3A%22u3bc19426%22%2C%22margin%22%3A%7B%22top%22%3Atrue%2C%22bottom%22%3Atrue%7D%2C%22card%22%3A%22file%22%7D)
+[![02-2-2.mp4](https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*NNs6TKOR3isAAAAAAAAAAABkARQnAQ)]()<a name="J19kV"></a>
 #### 2. **Data extraction**：
 **he processing process of extracting coordinate data from experimental video is shown as follows:**<br />![处理流程2.png](https://cdn.nlark.com/yuque/0/2023/png/22618877/1682761807503-fbbed9e7-2f52-472e-8f41-5c9929bcebd2.png#averageHue=%237e7a73&clientId=u7d54e50b-0b2c-4&from=paste&height=902&id=ue904a193&originHeight=1804&originWidth=7628&originalType=binary&ratio=2&rotation=0&showTitle=false&size=3147110&status=done&style=none&taskId=u165f3cf0-2b8c-46e7-a8fe-f39a9a95d02&title=&width=3814)
 <a name="Wnvtp"></a>
@@ -47,7 +47,7 @@ The experiment uses two viewpoints to record the video, the participant uses the
 4. merge.py: merge the coordinate data files of each person
 5. relative_location.py: Calculate the relative coordinates of the person in the experiment
 <a name="B9OiO"></a>
-#### 2. Data analysis
+#### 2. Data processing
 
 1. calculate_velocaty.py: Calculate the instantaneous velocity of each person in the experiment
 2. draw_track: plot the experiment trajectory
