@@ -5,13 +5,13 @@ A PaddleOCR-based numerical recognition project for extracting trajectory data f
 #### 1. **Experimental videos**
 <a name="RiUze"></a>
 ##### 1.1 **Researcher's view**
-![2-2.gif](https://cdn.nlark.com/yuque/0/2023/gif/22618877/1682761072125-2bf26ff3-15d2-4182-b75c-8c9ca70d54ae.gif#clientId=u7d54e50b-0b2c-4&from=paste&height=347&id=udf57b374&originHeight=360&originWidth=640&originalType=binary&ratio=2&rotation=0&showTitle=false&size=22023270&status=done&style=none&taskId=u0341e8bd-f721-4999-a4c4-ea34d683ff6&title=&width=616)
+![2-2.gif](https://cdn.nlark.com/yuque/0/2023/gif/22618877/1682761072125-2bf26ff3-15d2-4182-b75c-8c9ca70d54ae.gif#clientId=u7d54e50b-0b2c-4&from=paste&height=236&id=udf57b374&originHeight=360&originWidth=640&originalType=binary&ratio=2&rotation=0&showTitle=false&size=22023270&status=done&style=none&taskId=u0341e8bd-f721-4999-a4c4-ea34d683ff6&title=&width=419)
 <a name="LLhKq"></a>
 ##### 1.2 **Participant view**
-![02-2-2.gif](https://cdn.nlark.com/yuque/0/2023/gif/22618877/1682761193350-1693ff64-c2e3-42d7-9224-727a2d1ccccf.gif#averageHue=%23237299&clientId=u7d54e50b-0b2c-4&from=paste&height=344&id=u1d21592f&originHeight=360&originWidth=640&originalType=binary&ratio=2&rotation=0&showTitle=false&size=7903787&status=done&style=none&taskId=u3ccc851c-8500-408d-9a89-5046b8079a6&title=&width=611)
+![02-2-2.gif](https://cdn.nlark.com/yuque/0/2023/gif/22618877/1682761193350-1693ff64-c2e3-42d7-9224-727a2d1ccccf.gif#averageHue=%23237299&clientId=u7d54e50b-0b2c-4&from=paste&height=235&id=u1d21592f&originHeight=360&originWidth=640&originalType=binary&ratio=2&rotation=0&showTitle=false&size=7903787&status=done&style=none&taskId=u3ccc851c-8500-408d-9a89-5046b8079a6&title=&width=418)
 <a name="J19kV"></a>
 #### 2. **Data extraction**：
-**he processing process of extracting coordinate data from experimental video is shown as follows:**<br />![处理流程.png](https://cdn.nlark.com/yuque/0/2023/png/22618877/1682759061455-af5a1fc9-96c9-4e7a-9985-a6350ba49454.png#averageHue=%237e7972&clientId=u7d54e50b-0b2c-4&from=paste&height=205&id=u6613ab2e&originHeight=2706&originWidth=11442&originalType=binary&ratio=2&rotation=0&showTitle=false&size=6399241&status=done&style=none&taskId=uc0dc7ecf-ca7b-45dd-9247-90cba0fcd5f&title=&width=868)
+**he processing process of extracting coordinate data from experimental video is shown as follows:**<br />![处理流程2.png](https://cdn.nlark.com/yuque/0/2023/png/22618877/1682761807503-fbbed9e7-2f52-472e-8f41-5c9929bcebd2.png#averageHue=%237e7a73&clientId=u7d54e50b-0b2c-4&from=paste&height=902&id=ue904a193&originHeight=1804&originWidth=7628&originalType=binary&ratio=2&rotation=0&showTitle=false&size=3147110&status=done&style=none&taskId=u165f3cf0-2b8c-46e7-a8fe-f39a9a95d02&title=&width=3814)
 <a name="Wnvtp"></a>
 ### Getting Start
 Clone this project. This is the logical code for MCTrack to extract data and calculate relative coordinates, containing the functions:
